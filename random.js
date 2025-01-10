@@ -16,9 +16,9 @@ document.getElementById('btn').addEventListener('click',function(){
     }
 }
     else if(guess<randomNumber){
-        display('Number is too low'+ randomNumber)
+        display('Number is too low')
     }else if(guess>randomNumber){
-        display('Number is too high'+ randomNumber);
+        display('Number is too high');
     }else{
         display('Enter The Number!');
     }
